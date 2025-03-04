@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Precios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Supermercado Mayorista Emanuel</h1>
+    <h1>Registro de Precios</h1>
+    <h4>Sucursal simoca</h4>
+    <br>
+    
+
+    
+    <!-- Formulario para registrar productos -->
+    <form id="registroForm">
+      <label for="descripcion">Descripción:</label>
+      <input type="text" id="descripcion" placeholder="Descripción" required>
+      
+      <label for="precio">Precio:</label>
+      <input type="number" id="precio" placeholder="Precio" required>
+      
+      <label for="proveedor">Proveedor:</label>
+      <input type="text" id="proveedor" placeholder="Proveedor" required>
+      
+      <button type="button" id="agregarBtn">Agregar</button>
+    </form>
+    
+    <!-- Tabla para mostrar los productos registrados -->
+    <table id="registroTabla">
+      <thead>
+        <tr>
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Proveedor</th>
+          <th>Fecha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Los registros se agregarán aquí -->
+      </tbody>
+    </table>
+    
+    <!-- Botón para exportar la tabla a Excel -->
+    <button id="exportarBtn">Exportar a Excel</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
