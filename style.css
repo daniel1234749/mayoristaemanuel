@@ -20,7 +20,7 @@
   .container {
     max-width: 700px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffffbd;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@
   /* Etiquetas de los campos */
   label {
     font-size: 14px;
-    color: #555;
+    color: #095251;
   }
   
   /* Campos de entrada (input) */
@@ -55,7 +55,7 @@
     padding: 12px;
     font-size: 16px;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #970c0c;
     transition: border-color 0.3s ease;
   }
   
@@ -68,7 +68,7 @@
   /* Botón de agregar */
   button {
     padding: 12px;
-    background-color: #3498db;
+    background-color: #095223;
     color: white;
     font-size: 16px;
     border: none;
@@ -89,7 +89,7 @@
   }
   
   table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #b42828;
   }
   
   th, td {
@@ -99,7 +99,7 @@
   }
   
   th {
-    background-color: #3498db;
+    background-color: #db7734;
     color: white;
   }
   
